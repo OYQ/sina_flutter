@@ -1,4 +1,4 @@
-#Fri Nov 08 23:18:38 CST 2019
-base.0=C\:\\Users\\OYQ\\Desktop\\flutter\\sina\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\0
+#Sun Nov 10 22:19:57 CST 2019
+base.0=C\:\\Users\\OYQ\\Desktop\\code\\flutter\\sina_flutter\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex

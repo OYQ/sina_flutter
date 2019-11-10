@@ -2,42 +2,40 @@ import 'package:flutter/material.dart';
 
 typedef SinaBottomNarBarItemTapCallback = void Function();
 
-class SinaBottomNarBarItem extends StatefulWidget {
+class SinaBottomNarBarItem extends StatelessWidget {
   SinaBottomNarBarItem(this.title,{
     Key key, 
-    this.child, 
+    this.selectedImageName, 
+    this.unselectedImageName, 
     this.onTap,
-    selected, 
-    selectedColor, 
-    unselectedColor
-    }) : assert(title != null),  
-         selected = selected ?? false,
-         selectedColor = selectedColor ?? Colors.black,
-         unselectedColor = unselectedColor ?? Colors.red,
+    this.selected = false,
+    this.redBeanCount = 0,
+    }) : assert(title != null),
+         assert(selectedImageName != null),
+         assert(unselectedImageName != null),
     super(key :key);
 
   final String title;
-  final bool selected;
-  final Widget child;
-  final Color selectedColor;
-  final Color unselectedColor;
+  final String selectedImageName;
+  final String unselectedImageName;
   final GestureTapCallback onTap;
+  final bool selected;
+  final int redBeanCount;
 
-  @override
-  _SinaBottomNarBarItemState createState() => _SinaBottomNarBarItemState();
-}
-
-class _SinaBottomNarBarItemState extends State<SinaBottomNarBarItem> {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: widget.onTap,
+      onTap: ()=>onTap(),
       child: Container(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            widget.child,
-            Text(widget.title),
+            Image.asset(
+              selected ? selectedImageName : unselectedImageName, 
+              width: 40, 
+              height: 40,
+            ),
+            Text(title),
           ],
         ),
       ),

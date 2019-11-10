@@ -1,3 +1,5 @@
+import 'dart:ui' as prefix0;
+
 import 'package:flutter/material.dart';
 import 'bottom_navigation_bar_item.dart';
 
@@ -11,6 +13,8 @@ class SinaBottomNavBar extends StatefulWidget {
 }
 
 class _SinaBottomNavBarState extends State<SinaBottomNavBar> {
+  int _selectIndex = 0;
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -19,43 +23,44 @@ class _SinaBottomNavBarState extends State<SinaBottomNavBar> {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: <Widget>[
-          SinaBottomNarBarItem('第一',
-            onTap: ()=>widget.onTap(0),
-            child: Icon(
-              Icons.home,
-              size: 40,
-              ),
+          SinaBottomNarBarItem('微博',
+            onTap: ()=>barItemTap(0),
+            unselectedImageName: 'src/images/tabbar_discover.png',
+            selectedImageName: 'src/images/tabbar_discover_highlighted.png',
+            selected: _selectIndex == 0 ? true : false,
           ),
-          SinaBottomNarBarItem('第二',
-            onTap: ()=>widget.onTap(1),
-            child: Icon(
-              Icons.play_arrow,
-              size: 40,
-              ),
+          SinaBottomNarBarItem('视频',
+            onTap: ()=>barItemTap(1),
+            unselectedImageName: 'src/images/tabbar_video.png',
+            selectedImageName: 'src/images/tabbar_video_highlighted.png',
+            selected: _selectIndex == 1 ? true : false,
           ),
-          SinaBottomNarBarItem('第三',
-            onTap: ()=>widget.onTap(2),
-            child: Icon(
-              Icons.email,
-              size: 40,
-              ),
+          SinaBottomNarBarItem('发现',
+            onTap: ()=>barItemTap(2),
+            unselectedImageName: 'src/images/tabbar_home.png',
+            selectedImageName: 'src/images/tabbar_home_highlighted.png',
+            selected: _selectIndex == 2 ? true : false,
           ),
-          SinaBottomNarBarItem('第四',
-            onTap: ()=>widget.onTap(3),
-            child: Icon(
-              Icons.airplay,
-              size: 40,
-              ),
+          SinaBottomNarBarItem('消息',
+            onTap: ()=>barItemTap(3),
+            unselectedImageName: 'src/images/tabbar_message_center.png',
+            selectedImageName: 'src/images/tabbar_message_center_highlighted.png',
+            selected: _selectIndex == 3 ? true : false,
           ),
-          SinaBottomNarBarItem('第五',
-            onTap: ()=>widget.onTap(4),
-            child: Icon(
-              Icons.add,
-              size: 40,
-              ),
+          SinaBottomNarBarItem('我',
+            onTap: ()=>barItemTap(4),
+            unselectedImageName: 'src/images/tabbar_profile.png',
+            selectedImageName: 'src/images/tabbar_profile_highlighted.png',
+            selected: _selectIndex == 4 ? true : false,
           ),
         ],
       ),
     );
+  }
+
+  void barItemTap(int index){
+    _selectIndex = index;
+    setState(() {});
+    widget.onTap(_selectIndex);
   }
 }
