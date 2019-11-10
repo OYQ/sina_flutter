@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'bottom_navigation_bar.dart';
 
 class MainFrame extends StatefulWidget {
   @override
@@ -26,6 +27,10 @@ class _MainFrameState extends State<MainFrame> {
       'Index 3: Test',
       style: optionStyle,
     ),
+    Text(
+      'Index 4: Play',
+      style: optionStyle,
+    ),
   ];
   
   @override
@@ -34,9 +39,12 @@ class _MainFrameState extends State<MainFrame> {
       appBar: AppBar(
         title: Text('这是标题'),
       ),
-      bottomNavigationBar: Container(
-        height: 50,
-        color: Colors.red,
+      bottomNavigationBar: SinaBottomNavBar(
+        onTap: (index){
+          setState(() {
+            _selectedIndex = index;
+          });
+        },
       ),
       body: Center(
         child: _widgetOptions.elementAt(_selectedIndex),
