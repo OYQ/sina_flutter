@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'bottom_navigation_bar.dart';
+import 'home_page/home_page_appbar.dart';
 
 class MainFrame extends StatefulWidget {
   @override
@@ -36,9 +37,10 @@ class _MainFrameState extends State<MainFrame> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('这是标题'),
-      ),
+      appBar: HomePageAppBar(),
+      // appBar: AppBar(
+      //   title: Text('这是标题'),
+      // ),
       bottomNavigationBar: SinaBottomNavBar(
         onTap: (index){
           setState(() {

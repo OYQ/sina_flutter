@@ -1,5 +1,3 @@
-import 'dart:ui' as prefix0;
-
 import 'package:flutter/material.dart';
 import 'bottom_navigation_bar_item.dart';
 
@@ -19,14 +17,14 @@ class _SinaBottomNavBarState extends State<SinaBottomNavBar> {
   Widget build(BuildContext context) {
     return Container(
       height: 60,
-      color: Colors.grey,
+      color: Color(0x99E6E6E6),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: <Widget>[
           SinaBottomNarBarItem('微博',
             onTap: ()=>barItemTap(0),
-            unselectedImageName: 'src/images/tabbar_discover.png',
-            selectedImageName: 'src/images/tabbar_discover_highlighted.png',
+            unselectedImageName: 'src/images/tabbar_home.png',
+            selectedImageName: 'src/images/tabbar_home_highlighted.png',
             selected: _selectIndex == 0 ? true : false,
           ),
           SinaBottomNarBarItem('视频',
@@ -37,8 +35,8 @@ class _SinaBottomNavBarState extends State<SinaBottomNavBar> {
           ),
           SinaBottomNarBarItem('发现',
             onTap: ()=>barItemTap(2),
-            unselectedImageName: 'src/images/tabbar_home.png',
-            selectedImageName: 'src/images/tabbar_home_highlighted.png',
+            unselectedImageName: 'src/images/tabbar_discover.png',
+            selectedImageName: 'src/images/tabbar_discover_highlighted.png',
             selected: _selectIndex == 2 ? true : false,
           ),
           SinaBottomNarBarItem('消息',
