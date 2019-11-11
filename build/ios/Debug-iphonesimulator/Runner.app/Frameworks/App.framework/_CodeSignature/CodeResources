@@ -10,7 +10,7 @@
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		orjJWoN4IkcaKqz0u9m7UxIcqBo=
+		1PW/QXCQlgrOPBnS/99G6atA9IQ=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -30,11 +30,35 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		mJ4ouwXD2mIZejhMUiUyCXkEwKs=
+		M3OcCZw9EbEjOeKo4+MKAD/ZMZk=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
 		AlgKy1FbEPcZcd0kdJLLHtOy68I=
+		</data>
+		<key>flutter_assets/src/images/compose_camerabutton_background.png</key>
+		<data>
+		XNJ0YBFo8/Q6s+RUo6p/MRYKncw=
+		</data>
+		<key>flutter_assets/src/images/compose_camerabutton_background_highlighted.png</key>
+		<data>
+		uGVyoKBzgjrvaWho+c71mHLImfk=
+		</data>
+		<key>flutter_assets/src/images/navigationbar_arrow_down_new.png</key>
+		<data>
+		p1Nh0fWIw6QYjVYI2GtXf8wusgs=
+		</data>
+		<key>flutter_assets/src/images/navigationbar_arrow_down_up_new.png</key>
+		<data>
+		A0fSr1Tqb0AxKrroYK1xf8O5Z4A=
+		</data>
+		<key>flutter_assets/src/images/navigationbar_icon_compose.png</key>
+		<data>
+		t1mv5Aji9KmUb8gR8TXmjeTlO4o=
+		</data>
+		<key>flutter_assets/src/images/navigationbar_icon_compose_highlighted.png</key>
+		<data>
+		LgPq/Sz3IoJnpO/lGiGysVgbyXo=
 		</data>
 		<key>flutter_assets/src/images/tabbar_discover.png</key>
 		<data>
@@ -76,6 +100,10 @@
 		<data>
 		+HD89ZOKPHn1oryKIL+up7PAkSE=
 		</data>
+		<key>flutter_assets/src/images/video_red_pocket_default.png</key>
+		<data>
+		kj0FhR7ACdpbXcgyIo4OE3mINrQ=
+		</data>
 		<key>flutter_assets/vm_snapshot_data</key>
 		<data>
 		ns2Taajy2z7C8ddJckzMpziWvmY=
@@ -87,11 +115,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			orjJWoN4IkcaKqz0u9m7UxIcqBo=
+			1PW/QXCQlgrOPBnS/99G6atA9IQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			o7Zfwuzwp3bERLjtKv+m7houeO7ezPdm7bgeN3IcVpY=
+			tw/eWzqApvmdJhikZRhGZvWJ7ghrXxd/aBS0906g+OE=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -142,11 +170,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mJ4ouwXD2mIZejhMUiUyCXkEwKs=
+			M3OcCZw9EbEjOeKo4+MKAD/ZMZk=
 			</data>
 			<key>hash2</key>
 			<data>
-			O7yelXssiBRQjpgctESVMElu3xhnoKStrRqXv8ONfWM=
+			1Tc0hgszjxp7giTYsPNabV9tenetHpOznvri6kcUebE=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -158,6 +186,72 @@
 			<key>hash2</key>
 			<data>
 			ETQZmaktT/cBMTCTNJd49hWX7HSYPa18vp5zuIwK13c=
+			</data>
+		</dict>
+		<key>flutter_assets/src/images/compose_camerabutton_background.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XNJ0YBFo8/Q6s+RUo6p/MRYKncw=
+			</data>
+			<key>hash2</key>
+			<data>
+			uriB64V6o7VMeK3bBFGvMHz76ER/ZQq3yE3gbDjEU0c=
+			</data>
+		</dict>
+		<key>flutter_assets/src/images/compose_camerabutton_background_highlighted.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uGVyoKBzgjrvaWho+c71mHLImfk=
+			</data>
+			<key>hash2</key>
+			<data>
+			HcLIN1OYfOQX45MuW4/tyZ1Gwr+ioPLQC5gOLjpM6BQ=
+			</data>
+		</dict>
+		<key>flutter_assets/src/images/navigationbar_arrow_down_new.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			p1Nh0fWIw6QYjVYI2GtXf8wusgs=
+			</data>
+			<key>hash2</key>
+			<data>
+			c6zY3Oe2kRtaaQkJ1b7krGMfaJuQDmJxUCL0nZPAxzI=
+			</data>
+		</dict>
+		<key>flutter_assets/src/images/navigationbar_arrow_down_up_new.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			A0fSr1Tqb0AxKrroYK1xf8O5Z4A=
+			</data>
+			<key>hash2</key>
+			<data>
+			kK4buTZCU1Dik9WZAbbjT2YEjt6EAmVa9M30HnGLqF4=
+			</data>
+		</dict>
+		<key>flutter_assets/src/images/navigationbar_icon_compose.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			t1mv5Aji9KmUb8gR8TXmjeTlO4o=
+			</data>
+			<key>hash2</key>
+			<data>
+			rJbOQXwpn/51CVfHd6SOyUhc5DMuD7TerO/PFsmPw0Y=
+			</data>
+		</dict>
+		<key>flutter_assets/src/images/navigationbar_icon_compose_highlighted.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LgPq/Sz3IoJnpO/lGiGysVgbyXo=
+			</data>
+			<key>hash2</key>
+			<data>
+			bIG7LfGKCTxYYfiKzf/HzO+57ko2cWJV/E8bSZP0uww=
 			</data>
 		</dict>
 		<key>flutter_assets/src/images/tabbar_discover.png</key>
@@ -268,6 +362,17 @@
 			<key>hash2</key>
 			<data>
 			BAe61SEcjyt/m144u7sxRbpSiCnarvEgxqyVgYmz+XE=
+			</data>
+		</dict>
+		<key>flutter_assets/src/images/video_red_pocket_default.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kj0FhR7ACdpbXcgyIo4OE3mINrQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			uNAXBZRxR4M5vKoZxt+AOIsvTYAvRMbz/9E3ZQZhd08=
 			</data>
 		</dict>
 		<key>flutter_assets/vm_snapshot_data</key>
